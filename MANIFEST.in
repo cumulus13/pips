@@ -1,0 +1,38 @@
+include README.md
+include LICENSE
+include CHANGELOG.md
+include requirements.txt
+include pyproject.toml
+include setup.py
+include setup.cfg
+recursive-include src *.py
+recursive-include docs *.rst *.md
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude * .DS_Store
+prune tests
+prune .git
+prune .github
+global-exclude *.pyc *.pyo
+exclude pips1.ini
+
+# Added entries (1 items) - 2026-01-02 01:23:49
+exclude pips1.py
+
+# Added entries (1 items) - 2026-01-02 01:23:58
+exclude pips.sublime-project
+
+# Added entries (1 items) - 2026-01-02 01:24:03
+exclude pips.sublime-workspace
+
+# Added entries (1 items) - 2026-01-02 01:24:20
+exclude dist\
+
+# Added entries (1 items) - 2026-01-02 01:24:25
+exclude .pt/
+
+# Added entries (1 items) - 2026-01-02 01:24:36
+exclude .ruff_cache/
+
+# Added entries (1 items) - 2026-01-02 01:24:49
+exclude pips.egg-info
