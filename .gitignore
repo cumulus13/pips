@@ -20,3 +20,6 @@ __pycache__/
 .pt/
 *sublime*
 pips1*
+
+# Added entries (1 items)
+build.bat

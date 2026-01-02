@@ -37,9 +37,9 @@ An advanced alternative to pip with enhanced features for downloading, managing,
 
 ## 📥 Installation
 
-### From PyPI (when published)
+### Direct install from source
 ```bash
-pip install pips
+pip install git+htps://github.com/cumulus13/pips
 ```
 
 ### From Source
